@@ -1,8 +1,8 @@
 {
   "language": "Solidity",
   "sources": {
-    "contracts/Helloworld.sol": {
-      "content": "\r\n // SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.20;\r\n\r\ncontract HelloWorld {\r\n    string public message = \"Hello World\";\r\n}\r\n"
+    "contracts/HelloWorld.sol": {
+      "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract helloworld{\r\n    string public greet = \"helloworld\";\r\n}"
     }
   },
   "settings": {
